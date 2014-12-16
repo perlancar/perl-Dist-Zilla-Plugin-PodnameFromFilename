@@ -77,5 +77,5 @@ With this plugin, the value of PODNAME directive will be filled from filename.
 
 =head1 SEE ALSO
 
-L<https://github.com/rjbs/Dist-Zilla/issues/396>
+L<https://github.com/rjbs/Pod-Weaver/issues/29>
 
