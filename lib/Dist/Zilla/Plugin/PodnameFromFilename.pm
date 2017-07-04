@@ -61,7 +61,7 @@ In your module/script:
 
  # PODNAME:
 
-During build, PODNAME will be filled from filename. If Abstract is already
+During build, PODNAME will be filled from filename. If PODNAME is already
 filled, will leave it alone.
 
 
@@ -72,10 +72,10 @@ C<bin/some-progname> you have to specify:
 
  # PODNAME: some-progname
 
-With this plugin, the value of PODNAME directive will be filled from filename.
+With this plugin, the value of PODNAME directive will be filled from filename
+(unless it has been set explicitly).
 
 
 =head1 SEE ALSO
 
 L<https://github.com/rjbs/Pod-Weaver/issues/29>
-
